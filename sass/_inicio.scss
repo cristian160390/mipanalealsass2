@@ -1,0 +1,93 @@
+/*inicio*/
+*{
+    margin:0%;
+    padding: 0%;
+}
+@font-face{
+    font-family: "DancingScript";
+    src: url("..//Proyecto/tipografias/Roboto/Roboto-Italic.ttf");
+}
+.fondoSalmon{
+    background-color: #ff4e00;
+    background-image: linear-gradient(to bottom, 315deg, #ff4e00 0%, #ec9f05 74%);
+    .logo1{
+        margin-left: 42%;
+        margin-top: 50%;
+    }
+}
+nav{
+    border-bottom: double 20px cornsilk;
+    border-left: double cornsilk;
+    border-right: double 20px cornsilk;
+    border-top: double 20px cornsilk;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 30px;
+    ul li{
+        width: 200px;
+        display: inline-block;
+        background-color: rgb(248, 126, 12);
+        margin: 10px;
+        padding: 5px 10px 5px;
+        position: sticky;
+    }
+    &:hover{
+        background-color: yellow;
+        color: rgb(236, 75, 26);
+    }
+}
+main{
+    background-color: rgb(255, 169, 71);
+    .intro{
+        color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+article{
+    h1{
+        background-color: orangered;
+        color: yellow;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+    }
+        .DonAntonio{
+            height: auto;
+            margin-top: 2%;
+            margin-left: 33%;
+            border: solid;
+            border-color: blue;
+         }
+         h2{
+            background-color: rgba(194, 44, 44, 0.897);
+            color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+        }
+}
+.diseño{
+    background-color: #08f5e9;
+    text-align: center;
+    h3{
+        text-align: center;
+    }
+    .diseño:hover{
+        width: 50%;
+        height: 300px;
+        }
+}

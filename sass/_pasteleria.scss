@@ -1,0 +1,62 @@
+.BodyFondoDos{
+    --color1: rgb(252, 166, 8);
+  background-image: linear-gradient(var(--color1), #050632);
+  transition: 1s;
+  height: 100vh;
+  &:hover{
+    --color1: white;
+  }
+}
+.bg-5{
+  background: linear-gradient(135deg, rgb(227, 227, 227) 0%, rgb(93, 104, 116) 100%);
+}
+.animated-shadow {
+ color: #ffffff;
+ font: normal 140px Varela Round, sans-serif;
+ height: 140px;
+ left: 0;
+ letter-spacing: 5px;
+ text-align: center;
+ text-transform: uppercase;
+ width: 100%;
+ animation: move linear 2000ms infinite;
+ z-index: 2
+}
+nav{
+  border-bottom: double 20px cornsilk;
+  border-left: double cornsilk;
+  border-right: double 20px cornsilk;
+  border-top: double 20px cornsilk;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 30px;
+  ul li{
+      width: 200px;
+      display: inline-block;
+      background-color: rgb(248, 126, 12);
+      margin: 10px;
+      padding: 5px 10px 5px;
+      position: sticky;
+  }
+  &:hover{
+      background-color: yellow;
+      color: rgb(236, 75, 26);
+  }
+}
+article{
+    .texto{
+        text-align: left;
+        border-style: solid;
+        border-color: rgb(213, 9, 253);
+        background-color: pink;
+        margin-left: 2%;
+        margin-right: 35%;
+        font-size: 200%;   
+    }
+}
+footer{
+    border-style: solid;
+    border-color: rgb(12, 7, 0);
+    margin-bottom: 20%;
+}
